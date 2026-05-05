@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://artyful-puja-backend.onrender.com/api'
 
 export default function Home({ user, navigate, logout }) {
   const [courses, setCourses] = useState([])
